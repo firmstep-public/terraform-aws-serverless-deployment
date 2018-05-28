@@ -1,5 +1,12 @@
 # terraform-aws-serverless-deployment
 
+
+TODO:
+- [ ] Make examples
+- [ ] Expand Readme
+- [ ] Write modules
+- [ ] Write tutorial
+
 # module deploy
 Bundles a lambda function, and uploads it to an s3 bucket with a version tag as the path.
 `{{s3_bucket_name}}/{{lambda_function_name}}/{{version}}/index.zip`
